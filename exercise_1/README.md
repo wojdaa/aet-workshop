@@ -21,38 +21,7 @@ In order to run suite on your local Vagrant machine, run following command in th
 This action will execute `exercise1` suite. 
 Please remember about changing `DOMAIN_WHERE_EXERCISE_PAGE_IS_HOSTED` to the real domain where the exercise page is hosted.
 If you want to run suite now, please use `exercise1-explained.xml` - suite definition in `exercise1.xml` is not ready to perform test before starting exercises.
-You can learn more about running suite in [AET wiki](https://github.com/Cognifide/aet/wiki/RunningSuite).
-
-While running a suite you should see its progress in the console. It looks like this:
-
-```
-[INFO] ********************************************************************************
-[INFO] ********************** Job Setup finished at 16:13:24.388.**********************
-[INFO] *** Suite is now processed by the system, progress will be available below. ****
-[INFO] ********************************************************************************
-[INFO] [16:13:24.465]: COLLECTED: [success: 0, total: 1] ::: COMPARED: [success: 0, total: 0]
-[INFO] [16:13:30.447]: COLLECTED: [success: 1, total: 1] ::: COMPARED: [success: 5, total: 6]
-```
-
-After suite processing by AET is finished you should see following information with url to the report:
-
-```
-[INFO] Received report message: FinishedSuiteProcessingMessage{correlationId=testwarez2016-workshops-exercise1-1474553603033, status=OK, errors=[]}
-[INFO] Report is available at http://aet-vagrant/report.html?company=testwarez2016&project=workshops&correlationId=testwarez2016-workshops-exercise1-1474553603033
-[INFO] Suite processing finished.
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 8.721s
-[INFO] Finished at: Thu Sep 22 16:13:30 CEST 2016
-[INFO] Final Memory: 11M/204M
-[INFO] ------------------------------------------------------------------------
-```
-
-After you navigate to report url: 
-`http://aet-vagrant/report.html?company=testwarez2016&project=workshops&correlationId=testwarez2016-workshops-exercise1-1474553603033`
-you will see the report. Another way to open the report is to open `redirect.html` from `target` directory file that is the result of a Maven build. 
-It will redirect browser to report web application. 
+You can learn more about running suite in [AET wiki](https://github.com/Cognifide/aet/wiki/RunningSuite) and [Workshop description](../#running-suite).
 
 ## Exercise
 In this exercise you will be modifying `exercise1.xml` suite to prepare full test of `index.html` page step by step.
