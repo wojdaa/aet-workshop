@@ -1,8 +1,8 @@
 ![Cognifide logo](http://cognifide.github.io/images/cognifide-logo.png)
 
-# Automated Exploratory Testing Workshop - Exercise 2
+# Automated Exploratory Testing Workshop - Exercise 3
 
-In this exercise you will learn about interactions with tested web page that helps with different situations:
+In this exercise you will learn about interactions with tested web page that helps in various situations:
 
 * [Modifying Cookie](https://github.com/Cognifide/aet/wiki/CookieModifier) to deal with disclaimer,
 * [Click Modifier](https://github.com/Cognifide/aet/wiki/ClickModifier) that enables basic interaction with a page to show hidden content.
