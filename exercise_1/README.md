@@ -21,7 +21,7 @@ In order to run suite on your local Vagrant machine, run following command in th
 This action will execute `exercise1` suite. 
 Please remember about changing `DOMAIN_WHERE_EXERCISE_PAGE_IS_HOSTED` to the real domain where the exercise page is hosted.
 If you want to run suite now, please use `exercise1-explained.xml` - suite definition in `exercise1.xml` is not ready to perform test before starting exercises.
-You can learn more about running suite in [AET wiki](https://github.com/Cognifide/aet/wiki/RunningSuite) and [Workshop description](/aet-workshop#running-suite).
+You can learn more about running suite in [AET wiki](https://github.com/Cognifide/aet/wiki/RunningSuite) and [Workshop description](https://github.com/Skejven/aet-workshop#running-suite).
 
 ## Exercise
 In this exercise you will be modifying `exercise1.xml` suite to prepare full test of `index.html` page step by step.
