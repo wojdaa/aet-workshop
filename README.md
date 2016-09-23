@@ -114,7 +114,7 @@ Run it performing maven command inside `aet-test` directory using command line:
 `mvn aet:run`
 
 This action will execute `check` suite. 
-You can learn more about running suite in [AET wiki](https://github.com/Cognifide/aet/wiki/RunningSuite).
+You can learn more about running suites in [AET wiki](https://github.com/Cognifide/aet/wiki/RunningSuite).
 
 While running a suite you should see its progress in the console. It looks like this:
 
